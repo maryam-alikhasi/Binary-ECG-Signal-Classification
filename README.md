@@ -52,7 +52,7 @@ After balancing:
 * **Test samples:** 2,911
 * **Input shape:** `(187, 1)`
 
-## The test set remains separate from the balancing process.
+The test set remains separate from the balancing process.
 
 ## Model Architecture
 
@@ -103,7 +103,7 @@ Normal / Abnormal
 * Optimizer: Adam
 * Learning rate: `0.0005`
 
-## The complete model architecture and parameter count are defined in the notebook.
+The complete model architecture and parameter count are defined in the notebook.
 
 ## Training
 

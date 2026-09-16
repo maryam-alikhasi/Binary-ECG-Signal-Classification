@@ -20,9 +20,6 @@ The project includes:
 * Confusion matrix visualization
 * Saving the trained model for later inference
 
-**Course:** Deep Learning
-**University:** University of Isfahan
-
 ---
 
 ## Dataset
@@ -176,8 +173,6 @@ The saved model can then be used for inference on ECG samples with the same inpu
 (187, 1)
 ```
 
-> **Note:** The `.h5` format is the format used by the original project. Keras currently recommends its native `.keras` format for new model saves.
-
 ---
 
 ## Prediction
@@ -196,28 +191,6 @@ The output classes are:
 0 → Normal
 1 → Abnormal
 ```
-
----
-
-## Project Structure
-
-```text
-binary-ecg-classification/
-│
-├── data/
-│   ├── ptbdb_normal.csv
-│   └── ptbdb_abnormal.csv
-│
-├── models/
-│   └── ECG_Binary_Classifier_97.h5
-│
-├── Q1.ipynb
-├── README.md
-└── requirements.txt
-```
-
-> The dataset files are not necessarily included in the repository and may need to be obtained separately.
-
 ---
 
 ## Technologies
